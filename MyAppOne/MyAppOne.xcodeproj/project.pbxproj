@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7816745E2498C8B6004A2F7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7816745D2498C8B6004A2F7A /* AppDelegate.m */; };
-		781674612498C8B6004A2F7A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 781674602498C8B6004A2F7A /* SceneDelegate.m */; };
 		781674642498C8B6004A2F7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781674632498C8B6004A2F7A /* ViewController.m */; };
-		781674672498C8B6004A2F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781674652498C8B6004A2F7A /* Main.storyboard */; };
 		781674692498C8BB004A2F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781674682498C8BB004A2F7A /* Assets.xcassets */; };
 		7816746C2498C8BB004A2F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7816746A2498C8BB004A2F7A /* LaunchScreen.storyboard */; };
 		7816746F2498C8BB004A2F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7816746E2498C8BB004A2F7A /* main.m */; };
@@ -20,11 +18,8 @@
 		781674592498C8B6004A2F7A /* MyAppOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7816745C2498C8B6004A2F7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7816745D2498C8B6004A2F7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7816745F2498C8B6004A2F7A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		781674602498C8B6004A2F7A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		781674622498C8B6004A2F7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		781674632498C8B6004A2F7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		781674662498C8B6004A2F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		781674682498C8BB004A2F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7816746B2498C8BB004A2F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7816746D2498C8BB004A2F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,11 +58,8 @@
 			children = (
 				7816745C2498C8B6004A2F7A /* AppDelegate.h */,
 				7816745D2498C8B6004A2F7A /* AppDelegate.m */,
-				7816745F2498C8B6004A2F7A /* SceneDelegate.h */,
-				781674602498C8B6004A2F7A /* SceneDelegate.m */,
 				781674622498C8B6004A2F7A /* ViewController.h */,
 				781674632498C8B6004A2F7A /* ViewController.m */,
-				781674652498C8B6004A2F7A /* Main.storyboard */,
 				781674682498C8BB004A2F7A /* Assets.xcassets */,
 				7816746A2498C8BB004A2F7A /* LaunchScreen.storyboard */,
 				7816746D2498C8BB004A2F7A /* Info.plist */,
@@ -135,7 +127,6 @@
 			files = (
 				7816746C2498C8BB004A2F7A /* LaunchScreen.storyboard in Resources */,
 				781674692498C8BB004A2F7A /* Assets.xcassets in Resources */,
-				781674672498C8B6004A2F7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,21 +140,12 @@
 				781674642498C8B6004A2F7A /* ViewController.m in Sources */,
 				7816745E2498C8B6004A2F7A /* AppDelegate.m in Sources */,
 				7816746F2498C8BB004A2F7A /* main.m in Sources */,
-				781674612498C8B6004A2F7A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		781674652498C8B6004A2F7A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				781674662498C8B6004A2F7A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7816746A2498C8BB004A2F7A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,13 +274,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Z3HEPT682;
 				INFOPLIST_FILE = MyAppOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.org.MyAppOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,13 +292,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Z3HEPT682;
 				INFOPLIST_FILE = MyAppOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.org.MyAppOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
